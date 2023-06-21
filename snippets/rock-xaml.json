@@ -146,13 +146,13 @@
   },
   "HorizontalOptions": {
     "prefix": "HorizontalOptions",
-    "description": "",
-    "body": ["HorizontalOptions=\"#${1|FillAndExpand,Center|}\" $0"]
+    "description": "Gets or sets the LayoutOptions that define how the element gets laid in a layout cycle. This is a bindable property.",
+    "body": ["HorizontalOptions=\"${1|Fill,FillAndExpand,Start,StartAndExpand,Center,CenterAndExpand,End,EndAndExpand|}\" $0"]
   },
   "VerticalOptions": {
     "prefix": "VerticalOptions",
-    "description": "",
-    "body": ["VerticalOptions=\"#${1|FillAndExpand,Center|}\" $0"]
+    "description": "Gets or sets the LayoutOptions that define how the element gets laid in a layout cycle. This is a bindable property.",
+    "body": ["VerticalOptions=\"${1|Fill,FillAndExpand,Start,StartAndExpand,Center,CenterAndExpand,End,EndAndExpand|}\" $0"]
   },
   "OnDeviceType": {
     "prefix": "OnDeviceType",
