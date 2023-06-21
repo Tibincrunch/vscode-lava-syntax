@@ -455,5 +455,15 @@
     "prefix": "TransformReflection",
     "description": "",
     "body": ["<Rock:ReflectionTransformation Size=\"${1:96}\" />"]
+  },
+  "TranslationX": {
+    "prefix": "TranslationX",
+    "description": "Gets or sets the X translation delta of the element.",
+    "body": ["TranslationX=\"${1:}\" $0"]
+  },
+  "TranslationY": {
+    "prefix": "TranslationY",
+    "description": "Gets or sets the Y translation delta of the element.",
+    "body": ["TranslationY=\"${1:}\" $0"]
   }
 }
